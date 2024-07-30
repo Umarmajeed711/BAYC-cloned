@@ -2084,7 +2084,7 @@ h2 {
   }
 
   #disply {
-    width:100%;
+    width: 100%;
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 10px;
@@ -2131,14 +2131,14 @@ h2 {
 
   .mid2 img {
     width: 200px;
-    height: 220px;
+    height: 200px;
     margin-left: 0px;
     margin-right: 0px;
   }
   .mid2 img:hover,
   .mid2 img:active {
     width: 202px;
-    height: 222px;
+    height: 202px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #bfc500;
@@ -2238,7 +2238,7 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 60px 0px 20px 0px;
+    padding: 60px 0px 20px 5px;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -2397,11 +2397,16 @@ h2 {
     padding-top: 10px;
     padding-bottom: 30px;
   }
-
+  .fff {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-left: -32px;
+  }
   .last a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
   }
 
   .last a:hover,
