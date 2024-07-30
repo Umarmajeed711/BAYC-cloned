@@ -2078,18 +2078,16 @@ h2 {
     flex-wrap: wrap;
   }
   .set {
-    display: flex;
-    /* justify-content: center; */
-    /* padding: 20px 90px 0px 90px; */
-    padding-left: 25px;
-    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-left: 15px;
   }
 
   #disply {
-    width: 100%;
+    width:100%;
     padding-left: 2px;
     padding-right: 2px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .middiv {
@@ -2257,7 +2255,8 @@ h2 {
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 22%;
+    text-align: center;
   }
 
   .Speacsimg img {
@@ -2316,7 +2315,8 @@ h2 {
     font-size: 18px;
     text-align: center;
     align-self: center;
-    padding-right: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .toilet img {
     padding-top: 10px;
